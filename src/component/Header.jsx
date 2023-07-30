@@ -1,0 +1,20 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Header = () => {
+  return (
+<nav className='header'>
+    <div>
+        <h2>TODO-APP</h2>
+
+    </div>
+    <article>
+        <Link to={"/"}>Home</Link>
+        <Link to={"/profile"}>Profile</Link>
+        <Link to={"/login"}>login</Link>
+    </article>
+</nav>
+  )
+}
+
+export default Header
